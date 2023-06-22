@@ -4,7 +4,7 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
-    "lib": ["esnext", "WebWorker"],
+    "lib": ["dom", "esnext"],
     "sourceMap": true,
     "noEmitHelpers": true,
     "importHelpers": true,
@@ -20,10 +20,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "skipLibCheck": true
-  },
-  "vueCompilerOptions": {
-    "target": 3,
-    "lib": "nativescript-vue"
   },
   "include": ["src", "types"],
   "exclude": ["node_modules", "platforms"]
